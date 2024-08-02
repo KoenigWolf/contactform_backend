@@ -1,4 +1,4 @@
-以下は、プロジェクトの `README.md` ファイルのサンプルです。このファイルはプロジェクトの概要、インストール手順、使用方法、およびデプロイ方法を提供します。
+# コンタクトフォームの使用方法について解説します。
 
 ```markdown
 # ContactForm Project
@@ -49,35 +49,6 @@ ContactForm/
    http://localhost:3000
    ```
 
-## デプロイ手順 (Vercel)
-1. Vercel CLIをインストールします。
-   ```bash
-   npm install -g vercel
-   ```
-2. プロジェクトディレクトリに移動します。
-   ```bash
-   cd /path/to/your/ContactForm
-   ```
-3. Vercelプロジェクトを初期化します。
-   ```bash
-   vercel
-   ```
-   質問に対して以下のように回答します：
-   - **Set up and deploy?** Yes
-   - **Which scope do you want to deploy to?** [あなたのVercelアカウント]
-   - **Link to existing project?** No
-   - **What’s your project’s name?** ContactForm
-   - **In which directory is your code located?** .（現在のディレクトリ）
-   - **What’s your build command?** （ビルドコマンドが不要な場合はそのままEnter）
-   - **What’s your development command?** （開発用コマンドが不要な場合はそのままEnter）
-   - **Which framework preset do you want to use?** Other
-
-4. プロジェクトをデプロイします。
-   ```bash
-   vercel --prod
-   ```
-5. ブラウザでデプロイされたURLにアクセスして、アプリケーションが正しくデプロイされていることを確認します。
-
 ## ファイルの詳細
 ### public/index.html
 HTMLフォームと確認画面、送信完了画面を含むファイルです。
@@ -98,12 +69,3 @@ Vercelにデプロイするための設定ファイルです。
 - ユーザー入力のエスケープ処理を行い、XSS攻撃を防ぎます。
 - サーバー側でバリデーションを実施し、入力データの整合性を確認します。
 - HTTPSを使用して通信を暗号化し、データの安全性を確保します。
-
-## 貢献
-バグの報告や新機能の提案、プルリクエストは歓迎します。詳細は[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
-
-## ライセンス
-このプロジェクトはMITライセンスの下で公開されています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。
-```
-
-この `README.md` ファイルには、プロジェクトの概要、インストール手順、使用方法、およびデプロイ方法が含まれています。また、必要に応じて追加のセクションや詳細を追加することもできます。
